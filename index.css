@@ -22,6 +22,12 @@ body{
 .title{
   background-color: #008600;
   padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  font-weight: bold;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
 }
 .form{
   padding: 20px 40px;
@@ -37,6 +43,7 @@ body{
 .form label{
   display: block;
   margin-bottom: 5px;
+  padding-top: 10px;
 }
 .fCont input{
   display: block;
@@ -67,6 +74,7 @@ section{
   width: 60%;
   border: none;
   border-radius: 20px;
+  margin-top: 10px;
 }
 .fContl{
   display: flex;
