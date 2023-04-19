@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #04045f;
+  background-color: #373737;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,14 @@ body{
   overflow: hidden;
 }
 .title{
-  background-color: #d8d1d1;
+  background-color: #008600;
   padding: 10px 20px;
 }
 .form{
   padding: 20px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000027;
 }
 .fCont{
   margin-bottom: 10px;
@@ -39,4 +42,32 @@ body{
   display: block;
   width: 100%;
   padding: 10px;
+  border-radius:4px;
+  border: 1px solid #d8d1d1;
+  outline-color: #9a9a9a;
+}
+section{
+  position: absolute;
+  margin: 3px;
+  visibility: hidden;
+}
+.submit{
+  background-color: #008600;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 60%;
+  border: 2px;
+  border-radius: 20px;
+}
+.fContl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit:hover{
+  background-color: rgb(83, 139, 0);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
 }
