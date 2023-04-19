@@ -72,7 +72,7 @@ function validEmail(email)
 }
 
 document.querySelector('.submit').addEventListener('click', (event) => {
-  event.preventDefault();
   Validation();
+  event.preventDefault();
 });
 
